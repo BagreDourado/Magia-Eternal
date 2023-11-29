@@ -10,6 +10,10 @@ public class jurema : MonoBehaviour
     public Rigidbody2D rb;
     private bool botaoPressionadod = false;
     private bool botaoPressionadoe = false;
+   public bool tonochao = true;
+    public Transform pe;
+    public LayerMask chao;
+  
     private Animator anime;
     // Start is called before the first frame update
     void Start()
@@ -25,11 +29,13 @@ public class jurema : MonoBehaviour
             // Chama a função de ação enquanto o botão está pressionado.
             rb.velocity = new Vector2(speed, rb.velocity.y);
             anime.SetBool("direita", true);
+            
         }
         else  if(botaoPressionadoe==true)
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
             anime.SetBool("esquerda", true);
+
         }
         else
         {
@@ -37,6 +43,8 @@ public class jurema : MonoBehaviour
             rb.velocity = new Vector2(0, rb.velocity.y);
             anime.SetBool("esquerda", false);
         }
+
+        tonochao = Physics2D.OverlapCircle(pe.position, 0.2f, chao);
         
 
     }
@@ -57,7 +65,20 @@ public class jurema : MonoBehaviour
     }
     public void pulo ()
     {
-        rb.AddForce( new Vector2(0, impulse) , ForceMode2D.Impulse);
+        
+       if(tonochao == true)
+        {
+           
+
+
+
+            rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
+           
+        }
+        
+           
+      
+        
     }
 
    

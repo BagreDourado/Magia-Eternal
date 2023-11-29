@@ -1,0 +1,11 @@
+# ninja log v5
+155	702	7229719900137731	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	abcfa76ecc3107e2
+80	2287	7229719915988447	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	a998436e4c04f0c9
+67	2372	7229719916658594	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	50774cfbe90c0e81
+2	2383	7229719916738612	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	29898304d93deade
+138	2479	7229719917478780	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	34cd89d347ce769f
+40	2849	7229719921315460	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	520b36503aa9fd1c
+58	2937	7229719922115651	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8ad56ccaab2778c7
+704	2997	7229719918198953	C:/Users/zacar/OneDrive/Documentos/GitHub/Magia-Eternal/MagiaEternal/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5x4g471v/obj/arm64-v8a/libswappywrapper.so	25792c5987dfc01c
+49	3126	7229719924366139	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	c2ba7fa1ec841d18
+3126	3360	7229719926196567	C:/Users/zacar/OneDrive/Documentos/GitHub/Magia-Eternal/MagiaEternal/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5x4g471v/obj/arm64-v8a/libgame.so	a5d8f99de8710f98

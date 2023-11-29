@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 324780415}
   - component: {fileID: 324780414}
   - component: {fileID: 324780417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,8 +462,8 @@ Transform:
   m_GameObject: {fileID: 324780413}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -196.223, y: -160.2563, z: 0}
-  m_LocalScale: {x: 103.69483, y: -40.689484, z: 1}
+  m_LocalPosition: {x: -349.0601, y: -211.3608, z: 0}
+  m_LocalScale: {x: 99.57815, y: -15.966554, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -514,6 +514,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &499080795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499080796}
+  m_Layer: 0
+  m_Name: pe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499080796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499080795}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.00000037718567, z: -0, w: 1}
+  m_LocalPosition: {x: -0.037, y: -0.505, z: -0}
+  m_LocalScale: {x: 1.2065852, y: -1.2216675, z: 1.2065852}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 784867361}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +582,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.023529414, g: 0.015686275, b: 0.054901965, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -601,7 +632,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -222, y: -127, z: -5}
+  m_LocalPosition: {x: -390.61, y: -197.78, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -723,7 +754,7 @@ Transform:
   m_GameObject: {fileID: 757219158}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 123, y: 57, z: 5}
+  m_LocalPosition: {x: 241, y: 90, z: 5}
   m_LocalScale: {x: 101.74284, y: 52.745308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -802,7 +833,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -826,9 +857,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99bfc31bda474b4b8a6c09af375d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
-  impulse: 20
+  speed: 20
+  impulse: 500
   rb: {fileID: 784867358}
+  tonochao: 1
+  pe: {fileID: 499080796}
+  chao:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!212 &784867360
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -892,10 +928,11 @@ Transform:
   m_GameObject: {fileID: 784867356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -222, y: -127, z: 0}
-  m_LocalScale: {x: 21.78469, y: 19.437355, z: 1}
+  m_LocalPosition: {x: -390.61, y: -197.78, z: 0}
+  m_LocalScale: {x: 12.730973, y: 11.298935, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 499080796}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &784867362
@@ -976,8 +1013,8 @@ MonoBehaviour:
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 5
-  m_DeadZoneWidth: 0.08
-  m_DeadZoneHeight: 0.17
+  m_DeadZoneWidth: 0.31
+  m_DeadZoneHeight: 0.61
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
@@ -1059,7 +1096,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 324780416}
   m_Follow: {fileID: 784867361}
   m_Lens:
     FieldOfView: 60
