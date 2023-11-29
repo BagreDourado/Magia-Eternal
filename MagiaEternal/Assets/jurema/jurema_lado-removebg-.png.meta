@@ -1,58 +1,58 @@
 fileFormatVersion: 2
-guid: 86cec72564195fb46aa1ae354cfbbf07
+guid: d27937cf7b290804ab2deb5a05eef088
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4468966712090760779
-    second: jurema_lado_-_Copia__2_-removebg_0
+      213: -8105531393950038954
+    second: jurema_lado-removebg-_0
   - first:
-      213: 3282996953079194539
-    second: jurema_lado_-_Copia__2_-removebg_1
+      213: 3648665290842566770
+    second: jurema_lado-removebg-_1
   - first:
-      213: -8360966351309498800
-    second: jurema_lado_-_Copia__2_-removebg_2
+      213: 2359569641138545527
+    second: jurema_lado-removebg-_2
   - first:
-      213: -6656826664151424892
-    second: jurema_lado_-_Copia__2_-removebg_3
+      213: -640145237842739098
+    second: jurema_lado-removebg-_3
   - first:
-      213: 5142794022246124639
-    second: jurema_lado_-_Copia__2_-removebg_4
+      213: -6493961901043461168
+    second: jurema_lado-removebg-_4
   - first:
-      213: 979318462918590881
-    second: jurema_lado_-_Copia__2_-removebg_5
+      213: 8676246969168551760
+    second: jurema_lado-removebg-_5
   - first:
-      213: -2329288464135138876
-    second: jurema_lado_-_Copia__2_-removebg_6
+      213: 3179141303657871122
+    second: jurema_lado-removebg-_6
   - first:
-      213: -1087881063743414241
-    second: jurema_lado_-_Copia__2_-removebg_7
+      213: 4827595062090960909
+    second: jurema_lado-removebg-_7
   - first:
-      213: -5261489600090768298
-    second: jurema_lado_-_Copia__2_-removebg_8
+      213: 4529823627110073049
+    second: jurema_lado-removebg-_8
   - first:
-      213: -2517636768857415146
-    second: jurema_lado_-_Copia__2_-removebg_9
+      213: -4293948278104941936
+    second: jurema_lado-removebg-_9
   - first:
-      213: -1129533433170278230
-    second: jurema_lado_-_Copia__2_-removebg_10
+      213: 3485153403466765707
+    second: jurema_lado-removebg-_10
   - first:
-      213: -2277599881232954798
-    second: jurema_lado_-_Copia__2_-removebg_11
+      213: -6503068986779753648
+    second: jurema_lado-removebg-_11
   - first:
-      213: -7122343676879443096
-    second: jurema_lado_-_Copia__2_-removebg_12
+      213: 4335105757243322049
+    second: jurema_lado-removebg-_12
   - first:
-      213: 938292995643429482
-    second: jurema_lado_-_Copia__2_-removebg_13
+      213: 5524829174349165900
+    second: jurema_lado-removebg-_13
   - first:
-      213: 6384259244383509757
-    second: jurema_lado_-_Copia__2_-removebg_14
+      213: 4168163229152332859
+    second: jurema_lado-removebg-_14
   - first:
-      213: 5376109729592708822
-    second: jurema_lado_-_Copia__2_-removebg_15
+      213: 8477719911249256167
+    second: jurema_lado-removebg-_15
   - first:
-      213: 6994032822793263905
-    second: jurema_lado_-_Copia__2_-removebg_16
+      213: -7619102212006378788
+    second: jurema_lado-removebg-_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,9 +151,9 @@ TextureImporter:
       name: 1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 450
-        width: 121
+        x: 23
+        y: 448
+        width: 118
         height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -162,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b9e8c4f37a0bf1c0800000000000000
-      internalID: -4468966712090760779
+      spriteID: 654c4d3642e538f80800000000000000
+      internalID: -8105531393950038954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12
+      name: 8
       rect:
         serializedVersion: 2
-        x: 279
-        y: 446
-        width: 118
-        height: 109
+        x: 280
+        y: 451
+        width: 121
+        height: 106
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,8 +183,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba3a9f2b55c8f8d20800000000000000
-      internalID: 3282996953079194539
+      spriteID: 270f7f420c9a2a230800000000000000
+      internalID: 3648665290842566770
       vertices: []
       indices: 
       edges: []
@@ -193,10 +193,10 @@ TextureImporter:
       name: 2
       rect:
         serializedVersion: 2
-        x: 13
-        y: 312
-        width: 127
-        height: 113
+        x: 21
+        y: 303
+        width: 129
+        height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 056143bd661e7fb80800000000000000
-      internalID: -8360966351309498800
+      spriteID: 773ebda4610eeb020800000000000000
+      internalID: 2359569641138545527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 11
+      name: 7
       rect:
         serializedVersion: 2
-        x: 275
+        x: 280
         y: 309
-        width: 123
-        height: 111
+        width: 129
+        height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,19 +225,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 480e7e71b633e93a0800000000000000
-      internalID: -6656826664151424892
+      spriteID: 660c9bd3c4fbd17f0800000000000000
+      internalID: -640145237842739098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_4
+      name: jurema_lado-removebg-_4
       rect:
         serializedVersion: 2
-        x: 148
-        y: 335
-        width: 125
+        x: 149
+        y: 257
+        width: 124
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -246,18 +246,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5c8bf06aefde5740800000000000000
-      internalID: 5142794022246124639
+      spriteID: 0d35267be00d0e5a0800000000000000
+      internalID: -6493961901043461168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_5
+      name: jurema_lado-removebg-_5
       rect:
         serializedVersion: 2
         x: 183
-        y: 306
+        y: 307
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fd9d456a8386870800000000000000
+      internalID: 8676246969168551760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurema_lado-removebg-_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 307
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217bc4ffb249e1c20800000000000000
+      internalID: 3179141303657871122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jurema_lado-removebg-_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 307
         width: 20
         height: 8
       alignment: 0
@@ -267,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a18e3014fc379d00800000000000000
-      internalID: 979318462918590881
+      spriteID: d009c5b91201ff240800000000000000
+      internalID: 4827595062090960909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_6
+      name: jurema_lado-removebg-_8
       rect:
         serializedVersion: 2
-        x: 202
-        y: 306
-        width: 13
-        height: 7
+        x: 281
+        y: 311
+        width: 124
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,50 +330,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c15fc3ab74bcafd0800000000000000
-      internalID: -2329288464135138876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_7
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 306
-        width: 23
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1023b5bfe117e0f0800000000000000
-      internalID: -1087881063743414241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_8
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 408
-        width: 125
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65c7d25d51f6bf6b0800000000000000
-      internalID: -5261489600090768298
+      spriteID: 9d2411db69a2dde30800000000000000
+      internalID: 4529823627110073049
       vertices: []
       indices: 
       edges: []
@@ -340,10 +340,10 @@ TextureImporter:
       name: 3
       rect:
         serializedVersion: 2
-        x: 11
-        y: 163
-        width: 126
-        height: 123
+        x: 27
+        y: 164
+        width: 128
+        height: 117
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,20 +351,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 612aace92be8f0dd0800000000000000
-      internalID: -2517636768857415146
+      spriteID: 09a97a79ac4d864c0800000000000000
+      internalID: -4293948278104941936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10
+      name: 6
       rect:
         serializedVersion: 2
-        x: 267
-        y: 163
+        x: 279
+        y: 167
         width: 133
-        height: 120
+        height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,18 +372,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa845f9b3571350f0800000000000000
-      internalID: -1129533433170278230
+      spriteID: b8551692e80cd5030800000000000000
+      internalID: 3485153403466765707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_11
+      name: jurema_lado-removebg-_11
       rect:
         serializedVersion: 2
-        x: 142
-        y: 240
+        x: 147
+        y: 195
         width: 130
         height: 22
       alignment: 0
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25a43aaa9f65460e0800000000000000
-      internalID: -2277599881232954798
+      spriteID: 0532225163570c5a0800000000000000
+      internalID: -6503068986779753648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_12
+      name: jurema_lado-removebg-_12
       rect:
         serializedVersion: 2
-        x: 130
-        y: 3
+        x: 281
+        y: 167
         width: 130
-        height: 22
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,8 +414,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86be953692a582d90800000000000000
-      internalID: -7122343676879443096
+      spriteID: 1ce2d34c7b3692c30800000000000000
+      internalID: 4335105757243322049
       vertices: []
       indices: 
       edges: []
@@ -424,9 +424,9 @@ TextureImporter:
       name: 4
       rect:
         serializedVersion: 2
-        x: 6
-        y: 31
-        width: 133
+        x: 22
+        y: 29
+        width: 128
         height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -435,20 +435,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a62509c128c750d00800000000000000
-      internalID: 938292995643429482
+      spriteID: c45fbcdbcd22cac40800000000000000
+      internalID: 5524829174349165900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 9
+      name: 5
       rect:
         serializedVersion: 2
-        x: 262
-        y: 31
-        width: 134
-        height: 127
+        x: 276
+        y: 30
+        width: 133
+        height: 132
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,18 +456,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfc9b7f15f1799850800000000000000
-      internalID: 6384259244383509757
+      spriteID: b3c487f7f5a48d930800000000000000
+      internalID: 4168163229152332859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_15
+      name: jurema_lado-removebg-_15
       rect:
         serializedVersion: 2
-        x: 141
-        y: 193
+        x: 150
+        y: 4
         width: 130
         height: 22
       alignment: 0
@@ -477,20 +477,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6de05e1b057cb9a40800000000000000
-      internalID: 5376109729592708822
+      spriteID: 7ee9447a759e6a570800000000000000
+      internalID: 8477719911249256167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jurema_lado_-_Copia__2_-removebg_16
+      name: jurema_lado-removebg-_16
       rect:
         serializedVersion: 2
-        x: 130
-        y: 3
+        x: 281
+        y: 34
         width: 130
-        height: 22
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,8 +498,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12bd30edbcbcf0160800000000000000
-      internalID: 6994032822793263905
+      spriteID: cd287f9e7e2834690800000000000000
+      internalID: -7619102212006378788
       vertices: []
       indices: 
       edges: []
@@ -507,7 +507,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 70804388b17bf554f8404d11bc9eedc0
+    spriteID: 813f119615813094289980a14af2e781
     internalID: 0
     vertices: []
     indices: 
@@ -515,14 +515,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      1: 1411414367
-      10: -1129533433170278230
-      11: -6656826664151424892
-      12: 3282996953079194539
-      2: -4468966712090760779
-      3: -8360966351309498800
-      4: -2517636768857415146
-      9: 6384259244383509757
+      1: -8105531393950038954
+      2: 2359569641138545527
+      3: -4293948278104941936
+      4: 5524829174349165900
+      5: 4168163229152332859
+      6: 3485153403466765707
+      7: -640145237842739098
+      8: 3648665290842566770
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
