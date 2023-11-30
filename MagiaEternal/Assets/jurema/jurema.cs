@@ -31,7 +31,7 @@ public class jurema : MonoBehaviour
             anime.SetBool("direita", true);
             
         }
-        else  if(botaoPressionadoe==true)
+        else  if(botaoPressionadoe==true | Input.GetKey(KeyCode.A))
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
             anime.SetBool("esquerda", true);
@@ -43,9 +43,18 @@ public class jurema : MonoBehaviour
             rb.velocity = new Vector2(0, rb.velocity.y);
             anime.SetBool("esquerda", false);
         }
-
         tonochao = Physics2D.OverlapCircle(pe.position, 0.2f, chao);
-        
+
+
+        if (tonochao == true && Input.GetButtonDown("Jump"))
+        {
+
+
+
+
+            rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
+
+        }
 
     }
     public void  parou()
@@ -66,7 +75,7 @@ public class jurema : MonoBehaviour
     public void pulo ()
     {
         
-       if(tonochao == true)
+       if(tonochao == true | Input.GetKey(KeyCode.W))
         {
            
 
