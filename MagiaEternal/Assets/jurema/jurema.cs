@@ -1,20 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class jurema : MonoBehaviour
 {
-
-    public float speed;
-    public float impulse;
+    public int vida = 3;
+    public float speed , impulse;
     public Rigidbody2D rb;
-    private bool botaoPressionadod = false;
-    private bool botaoPressionadoe = false;
+    bool botaoPressionadod, botaoPressionadoe,morte = false;
    public bool tonochao = true;
     public Transform pe;
     public LayerMask chao;
-  
     private Animator anime;
+    public GameObject restart;
+    public Image hearton,hearton2, heartoff, heartoff2;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +56,7 @@ public class jurema : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
 
         }
+        restartplayer();
 
     }
     public void  parou()
@@ -89,7 +91,40 @@ public class jurema : MonoBehaviour
       
         
     }
-
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.CompareTag("morte")==true)
+        {
+            vida = vida - 1;
+            morte = true;
+            if(vida==0)
+            {
+                Debug.Log("morreu");
+            }
+        }
+        
+    }
+    public void restartplayer ()
+    {
+        if(morte==true)
+        {
+            rb.transform.position = new Vector2(restart.transform.position.x, restart.transform.position.y);
+            morte = false;
+        }
+    }
+    public void dano()
+    {
+        if(vida==2)
+        {
+            hearton2.enabled = true;
+            heartoff2.enabled = false;
+        }
+        else
+        {
+            hearton2.enabled = false;
+            heartoff2.enabled = true;
+        }
+    }
    
 
 }
