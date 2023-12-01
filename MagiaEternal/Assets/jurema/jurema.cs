@@ -5,17 +5,19 @@ using UnityEngine.UI;
 
 public class jurema : MonoBehaviour
 {
-    public int vida = 3;
-    public float speed , impulse;
+    [Header("fisica")]
+    public float speed, impulse;
     public Rigidbody2D rb;
-    bool botaoPressionadod, botaoPressionadoe,morte = false;
-   public bool tonochao = true;
+    bool botaoPressionadod, botaoPressionadoe, morte = false;
     public Transform pe;
     public LayerMask chao;
     private Animator anime;
+    public bool tonochao = true;
+    [Header("status")]
+    public int vida,puloextra = 3;
+    public Image hearton, hearton2, heartoff, heartoff2, hearton3, heartoff3;
     public GameObject restart;
-    public Image hearton,hearton2, heartoff, heartoff2;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,14 +51,25 @@ public class jurema : MonoBehaviour
 
         if (tonochao == true && Input.GetButtonDown("Jump"))
         {
-
-
-
-
             rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
+        }
+        if (tonochao == false && Input.GetButtonDown("Jump") && puloextra>0)
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
+            puloextra = puloextra - 1;
+        }
+        if(tonochao)
+        {
+            puloextra = 2;
+        }
+        if ( Input.GetKey(KeyCode.S ))
+        {
+
+            rb.AddForce(new Vector2(rb.velocity.x, -impulse), ForceMode2D.Force);
 
         }
         restartplayer();
+        dano();
 
     }
     public void  parou()
@@ -79,17 +92,29 @@ public class jurema : MonoBehaviour
         
        if(tonochao == true | Input.GetKey(KeyCode.W))
         {
-           
-
-
-
+          
             rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
            
         }
+        if (tonochao == false && Input.GetButtonDown("Jump") && puloextra > 0)
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
+            puloextra = puloextra - 1;
+        }
+        if (tonochao)
+        {
+            puloextra = 1;
+        }
+
+    }
+    public void despulo()
+    {
         
-           
-      
-        
+
+            rb.AddForce(new Vector2(rb.velocity.x,- impulse), ForceMode2D.Force);
+
+       
+ 
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -97,10 +122,7 @@ public class jurema : MonoBehaviour
         {
             vida = vida - 1;
             morte = true;
-            if(vida==0)
-            {
-                Debug.Log("morreu");
-            }
+           
         }
         
     }
@@ -124,6 +146,25 @@ public class jurema : MonoBehaviour
             hearton2.enabled = false;
             heartoff2.enabled = true;
         }
+        if (vida == 1)
+        {
+            hearton2.enabled = true;
+            heartoff2.enabled = false;
+
+            hearton.enabled = true;
+            heartoff.enabled = false;
+        }
+        else
+        {
+            hearton.enabled = false;
+            heartoff.enabled = true;
+        }
+        if (vida == 0)
+        {
+            Debug.Log("morreu");
+          
+        }
+       
     }
    
 
