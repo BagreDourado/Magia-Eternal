@@ -22,7 +22,7 @@ public class dialoguecontrol : MonoBehaviour
         discurso.text = txt;
         actor.text = actorname;
     }
-
+    
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +33,9 @@ public class dialoguecontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            controle.SetActive(false);
+        }
     }
 }

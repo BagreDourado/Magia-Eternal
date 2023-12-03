@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3586b8478cbe7a94fb74dd93ec9c49ce
+guid: d71da5c6ae90de147ac0ed7b1671f175
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1204807771635183992
-    second: dialogo_0
+      213: 5521423743662568174
+    second: pedras movimentos_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,22 +113,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dialogo_0
+      name: pedras movimentos_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 12
-        width: 493
-        height: 166
+        x: 177
+        y: 119
+        width: 137
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88e0e0d07b9a74fe0800000000000000
-      internalID: -1204807771635183992
+      spriteID: ee23a6f14a900ac40800000000000000
+      internalID: 5521423743662568174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras movimentos_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 115
+        width: 140
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1444d20473ab634686b8db97cb1af55
+      internalID: -990666402
       vertices: []
       indices: 
       edges: []
@@ -136,7 +157,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ee862ed13a46ae9448ef8843264694c5
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +165,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dialogo_0: -1204807771635183992
+      pedras movimentos_1: -990666402
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

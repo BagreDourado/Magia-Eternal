@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jurema uni_0: -4472122482296030334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

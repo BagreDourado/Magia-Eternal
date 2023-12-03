@@ -24,6 +24,7 @@ public class dialogue : MonoBehaviour
         {
             dc.speech(profile, txt, profiletxt);
         }
+       
     }
     // Update is called once per frame
     void FixedUpdate()

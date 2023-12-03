@@ -167,7 +167,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "cora\xE7ao rosa_0": -2633910912523113190
+      "cora\xE7ao rosa_1": 9196409234472373370
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
