@@ -8,6 +8,8 @@ TagManager:
   - player
   - barreira
   - barreira2
+  - enemy
+  - espinho
   layers:
   - Default
   - TransparentFX

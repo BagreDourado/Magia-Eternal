@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 1d39c4d0b1f0fa941ab5c9210d97358f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2558329971925098856
+    second: gosminhas_0
+  - first:
+      213: -5217700209751693697
+    second: gosminhas_1
+  - first:
+      213: -1618538334566253544
+    second: gosminhas_2
+  - first:
+      213: 158719662137274450
+    second: gosminhas_3
+  - first:
+      213: 8650830696788735386
+    second: gosminhas_4
+  - first:
+      213: -7107316259591483597
+    second: gosminhas_5
+  - first:
+      213: 7784744123727267004
+    second: gosminhas_6
+  - first:
+      213: 4717121419767776235
+    second: gosminhas_7
+  - first:
+      213: -4973332618511665459
+    second: gosminhas_8
+  - first:
+      213: -2092788632095061234
+    second: gosminhas_9
+  - first:
+      213: 6231999251488065892
+    second: gosminhas_10
+  - first:
+      213: 8504857263044602659
+    second: gosminhas_11
+  - first:
+      213: 1429801903462644620
+    second: gosminhas_12
+  - first:
+      213: 7999218155217939711
+    second: gosminhas_13
+  - first:
+      213: 8751285606990952209
+    second: gosminhas_14
+  - first:
+      213: 2946561560819211628
+    second: gosminhas_15
+  - first:
+      213: -1943570468411394764
+    second: gosminhas_16
+  - first:
+      213: -6040892157533700248
+    second: gosminhas_17
+  - first:
+      213: 1452595002805580015
+    second: gosminhas_18
+  - first:
+      213: -4643515734054129842
+    second: gosminhas_19
+  - first:
+      213: 8218809545791792567
+    second: gosminhas_20
+  - first:
+      213: 8370547357535727867
+    second: gosminhas_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gosminhas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e5b25f17cfe7cd0800000000000000
+      internalID: -2558329971925098856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 425
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76e445cd410797b0800000000000000
+      internalID: -5217700209751693697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 420
+        width: 76
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c73d8c5fbc989e0800000000000000
+      internalID: -1618538334566253544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 420
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250ff8811b2e33200800000000000000
+      internalID: 158719662137274450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 421
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9533264faced0870800000000000000
+      internalID: 8650830696788735386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 340
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f01b0a48dbd5d90800000000000000
+      internalID: -7107316259591483597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 341
+        width: 93
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4c2120987f80c60800000000000000
+      internalID: 7784744123727267004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 341
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be305ab50f4967140800000000000000
+      internalID: 4717121419767776235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 341
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6bfb3555c2bfab0800000000000000
+      internalID: -4973332618511665459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_9
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 341
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b8ff1c3dbe4f2e0800000000000000
+      internalID: -2092788632095061234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 245
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4694279fc428c7650800000000000000
+      internalID: 6231999251488065892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 248
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bac2dbe92570670800000000000000
+      internalID: 8504857263044602659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 245
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b711b714da7d310800000000000000
+      internalID: 1429801903462644620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 248
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcee9ec78ee20f60800000000000000
+      internalID: 7999218155217939711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 253
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1173faca4efc27970800000000000000
+      internalID: 8751285606990952209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d1375c02a44e820800000000000000
+      internalID: 2946561560819211628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_16
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 143
+        width: 96
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435366ad4fc0705e0800000000000000
+      internalID: -1943570468411394764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_17
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 141
+        width: 96
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fb2c7b6907a2ca0800000000000000
+      internalID: -6040892157533700248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_18
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 142
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0fbb87577a82410800000000000000
+      internalID: 1452595002805580015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 24
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f24c2da0bee8fb0800000000000000
+      internalID: -4643515734054129842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 18
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5628d9cb31f0270800000000000000
+      internalID: 8218809545791792567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosminhas_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 16
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0708df8782a2470800000000000000
+      internalID: 8370547357535727867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

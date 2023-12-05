@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 27722f00e88b4dc4abfb7fbb835092db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5148265909160973028
+    second: caixotes_0
+  - first:
+      213: -7830733650737379231
+    second: caixotes_1
+  - first:
+      213: -1028649048818224638
+    second: caixotes_2
+  - first:
+      213: -6975558939426330632
+    second: caixotes_3
+  - first:
+      213: 5884842132684372516
+    second: caixotes_4
+  - first:
+      213: -543582684516604638
+    second: caixotes_5
+  - first:
+      213: 1378042554412064784
+    second: caixotes_6
+  - first:
+      213: -3419514470773616543
+    second: caixotes_7
+  - first:
+      213: 6561069989911206109
+    second: caixotes_8
+  - first:
+      213: -2349317312155501026
+    second: caixotes_9
+  - first:
+      213: -7954330526440722541
+    second: caixotes_10
+  - first:
+      213: 8620896582148808285
+    second: caixotes_11
+  - first:
+      213: -8995933745914051500
+    second: caixotes_12
+  - first:
+      213: -6221319800828517208
+    second: caixotes_13
+  - first:
+      213: -5258635708570276580
+    second: caixotes_14
+  - first:
+      213: 3834533439018713050
+    second: caixotes_15
+  - first:
+      213: -8152817736921466548
+    second: caixotes_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caixotes_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 187
+        width: 99
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e21bc45190527740800000000000000
+      internalID: 5148265909160973028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 189
+        width: 82
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168c911db35a35390800000000000000
+      internalID: -7830733650737379231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 388
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20275aed32189b1f0800000000000000
+      internalID: -1028649048818224638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 387
+        width: 68
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f761b94a16d13f90800000000000000
+      internalID: -6975558939426330632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_4
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 394
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a77ed8db82ba150800000000000000
+      internalID: 5884842132684372516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 273
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225a55fad6ec478f0800000000000000
+      internalID: -543582684516604638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 182
+        width: 211
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0106a1de66acf1310800000000000000
+      internalID: 1378042554412064784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 82
+        width: 161
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1601b39c4b17b80d0800000000000000
+      internalID: -3419514470773616543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 89
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8122fc46a9d0b50800000000000000
+      internalID: 6561069989911206109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 20
+        width: 98
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ebb401a5c856fd0800000000000000
+      internalID: -2349317312155501026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 98
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f6471b78a8c9190800000000000000
+      internalID: -7954330526440722541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 88
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5edb5814c393a770800000000000000
+      internalID: 8620896582148808285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 13
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45408dbabe5082380800000000000000
+      internalID: -8995933745914051500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a423856a9e69a9a0800000000000000
+      internalID: -6221319800828517208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 6
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1deb7b3fa29507b0800000000000000
+      internalID: -5258635708570276580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_15
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 19
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf3118b8dff63530800000000000000
+      internalID: 3834533439018713050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caixotes_16
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 11
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49ba48b67f5bde80800000000000000
+      internalID: -8152817736921466548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      caixotes_0: 5148265909160973028
+      caixotes_1: -7830733650737379231
+      caixotes_10: -7954330526440722541
+      caixotes_11: 8620896582148808285
+      caixotes_12: -8995933745914051500
+      caixotes_13: -6221319800828517208
+      caixotes_14: -5258635708570276580
+      caixotes_15: 3834533439018713050
+      caixotes_16: -8152817736921466548
+      caixotes_2: -1028649048818224638
+      caixotes_3: -6975558939426330632
+      caixotes_4: 5884842132684372516
+      caixotes_5: -543582684516604638
+      caixotes_6: 1378042554412064784
+      caixotes_7: -3419514470773616543
+      caixotes_8: 6561069989911206109
+      caixotes_9: -2349317312155501026
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
