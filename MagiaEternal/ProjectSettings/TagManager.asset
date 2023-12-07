@@ -10,6 +10,7 @@ TagManager:
   - barreira2
   - enemy
   - espinho
+  - chave
   layers:
   - Default
   - TransparentFX

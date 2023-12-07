@@ -17,11 +17,14 @@ public class jurema : MonoBehaviour
     public int vida,puloextra = 3;
     public Image hearton, hearton2, heartoff, heartoff2, hearton3, heartoff3;
     public GameObject restart;
+    public Text chavetxt;
+    private int chave;
 
     // Start is called before the first frame update
     void Start()
     {
         anime = GetComponent<Animator>();
+        chave=0;
     }
 
     // Update is called once per frame
@@ -70,7 +73,7 @@ public class jurema : MonoBehaviour
         }
         restartplayer();
         dano();
-
+        chavetxt.text = chave.ToString();
     }
     public void  parou()
     {
@@ -124,7 +127,13 @@ public class jurema : MonoBehaviour
             morte = true;
            
         }
-        
+        if (col.CompareTag("chave")  == true)
+        {
+            chave = chave + 1;
+            Destroy(col.gameObject);
+
+        }
+
     }
     public void restartplayer ()
     {
