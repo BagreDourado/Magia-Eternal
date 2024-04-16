@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class jurema : MonoBehaviour
 {
     [Header("fisica")]
@@ -13,31 +13,33 @@ public class jurema : MonoBehaviour
     public LayerMask chao;
     private Animator anime;
     public bool tonochao = true;
+    public bool pulon;
     [Header("status")]
-    public int vida,puloextra = 3;
+    public int vida=3,puloextra = 2;
     public Image hearton, hearton2, heartoff, heartoff2, hearton3, heartoff3;
     public GameObject restart;
     public Text chavetxt;
-    private int chave;
+    public int chave;
 
     // Start is called before the first frame update
     void Start()
     {
         anime = GetComponent<Animator>();
         chave=0;
+        
     }
 
     // Update is called once per frame
     void Update()
-    {
-        if (botaoPressionadod == true | Input.GetKey(KeyCode.D))
+    { ;
+        if ( Input.GetKey(KeyCode.D))
         {
             // Chama a função de ação enquanto o botão está pressionado.
             rb.velocity = new Vector2(speed, rb.velocity.y);
             anime.SetBool("direita", true);
             
         }
-        else  if(botaoPressionadoe==true | Input.GetKey(KeyCode.A))
+        else  if( Input.GetKey(KeyCode.A))
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
             anime.SetBool("esquerda", true);
@@ -52,11 +54,15 @@ public class jurema : MonoBehaviour
         tonochao = Physics2D.OverlapCircle(pe.position, 0.2f, chao);
 
 
-        if (tonochao == true && Input.GetButtonDown("Jump"))
+        if (tonochao == true && Input.GetButtonDown("Jump")   )
         {
-            rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
+            rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force) ;
         }
-        if (tonochao == false && Input.GetButtonDown("Jump") && puloextra>0)
+        else
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, 0), ForceMode2D.Force);
+        }
+        if (tonochao == false && Input.GetButtonDown("Jump") && puloextra>0 )
         {
             rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
             puloextra = puloextra - 1;
@@ -75,50 +81,7 @@ public class jurema : MonoBehaviour
         dano();
         chavetxt.text = chave.ToString();
     }
-    public void  parou()
-    {
-        botaoPressionadod = false;
-        botaoPressionadoe = false;
-    }
-    public void andardireita()
-    {
-        botaoPressionadod = true;
-     
-        
-    }
-    public void andaresquerda()
-    {
-        botaoPressionadoe = true;
-    }
-    public void pulo ()
-    {
-        
-       if(tonochao == true | Input.GetKey(KeyCode.W))
-        {
-          
-            rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
-           
-        }
-        if (tonochao == false && Input.GetButtonDown("Jump") && puloextra > 0)
-        {
-            rb.AddForce(new Vector2(rb.velocity.x, impulse), ForceMode2D.Force);
-            puloextra = puloextra - 1;
-        }
-        if (tonochao)
-        {
-            puloextra = 1;
-        }
-
-    }
-    public void despulo()
-    {
-        
-
-            rb.AddForce(new Vector2(rb.velocity.x,- impulse), ForceMode2D.Force);
-
-       
- 
-    }
+   
     private void OnTriggerEnter2D(Collider2D col)
     {
         if(col.CompareTag("morte" ) | col.CompareTag("enemy") | col.CompareTag("espinho") == true)
@@ -133,6 +96,12 @@ public class jurema : MonoBehaviour
             Destroy(col.gameObject);
 
         }
+        if (col.CompareTag("porta") == true && chave ==1)
+        {
+            SceneManager.LoadScene("Menu");
+
+        }
+
 
     }
     public void restartplayer ()

@@ -647,7 +647,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gosminhas_0: -2558329971925098856
+      gosminhas_1: -5217700209751693697
+      gosminhas_10: 6231999251488065892
+      gosminhas_11: 8504857263044602659
+      gosminhas_12: 1429801903462644620
+      gosminhas_13: 7999218155217939711
+      gosminhas_14: 8751285606990952209
+      gosminhas_15: 2946561560819211628
+      gosminhas_16: -1943570468411394764
+      gosminhas_17: -6040892157533700248
+      gosminhas_18: 1452595002805580015
+      gosminhas_19: -4643515734054129842
+      gosminhas_2: -1618538334566253544
+      gosminhas_20: 8218809545791792567
+      gosminhas_21: 8370547357535727867
+      gosminhas_3: 158719662137274450
+      gosminhas_4: 8650830696788735386
+      gosminhas_5: -7107316259591483597
+      gosminhas_6: 7784744123727267004
+      gosminhas_7: 4717121419767776235
+      gosminhas_8: -4973332618511665459
+      gosminhas_9: -2092788632095061234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

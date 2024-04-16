@@ -383,7 +383,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      espinhos dark_0: -3602746097917032469
+      espinhos dark_1: 7135733495448122524
+      espinhos dark_10: 1752202400114477246
+      espinhos dark_2: 4652608009056422442
+      espinhos dark_3: 6686662758866056668
+      espinhos dark_4: 7994941832031651122
+      espinhos dark_5: -8730032158126730970
+      espinhos dark_6: 2718731127714883712
+      espinhos dark_7: -6907851843177895138
+      espinhos dark_8: 3366415347284301275
+      espinhos dark_9: 521815234113157012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
