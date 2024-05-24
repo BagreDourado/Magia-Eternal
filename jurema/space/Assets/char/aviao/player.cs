@@ -31,6 +31,7 @@ public class player : MonoBehaviour
     [Header("score")]
     public int score = 0; 
     public Text scoreText;
+
     void Start()
     {
         vida = vidamaxima;

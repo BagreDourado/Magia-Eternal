@@ -5,40 +5,28 @@ using UnityEngine.AI;
 public class enemyNT : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject  eu;
-    [Header("move")]
-    public Transform player; // Referência ao Transform do jogador
-    public float speed = 5.0f;
-    public int tt;
+    public Transform player; // Referência ao transform do jogador
+    public float moveSpeed = 5f; // Velocidade de movimento do inimigo
+
+    private Rigidbody2D rb;
 
     void Start()
     {
-        autodestruc();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (player != null)
+        // Verifica se o jogador está à frente do inimigo
+        if (player.position.x > transform.position.x)
         {
-            // Direção do inimigo para o jogador
-            Vector3 direction = player.position - transform.position;
-            direction.Normalize();
-
-            // Movimenta o inimigo em direção ao jogador
-            transform.position += direction * speed * Time.deltaTime;
+            // Move o inimigo para a direção do jogador
+            rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
         }
-    }
-    private void autodestruc()
-    {
-        Destroy(eu,tt);
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.CompareTag("bala"))
+        else
         {
-            Destroy(eu);
+            // Move o inimigo na direção oposta
+            rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
         }
-        
     }
 }
